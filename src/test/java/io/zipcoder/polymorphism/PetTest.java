@@ -1,7 +1,6 @@
 package io.zipcoder.polymorphism;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.util.logging.Logger;
@@ -34,6 +33,7 @@ public class PetTest {
     @Test
     public void dogSpeakTest() {
         currentDog.speak();
+
     }
 
     @Test
@@ -45,4 +45,6 @@ public class PetTest {
     public void catSpeakTest() {
         currentCat.speak();
     }
+
+
 }
