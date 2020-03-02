@@ -82,39 +82,7 @@ public class MainApplication {
             String petName = getUserInput();
             return petName;
         }
-
-
-        /*public void getName() {
-            boolean conditional = false;
-            while (!conditional) {
-
-            }
-        }*/
-        /*public void getTypeAndName() {
-            for (int i = 0; i < numberOfAnimals; i++) {
-                System.out.println("Please enter your animal type and name with a space between.");
-                String a = scanner.nextLine();
-                String[] userInput = a.split(" ");
-                String petType = userInput[0];
-                String petName = userInput[1];
-
-
-                if (petType.equals(petTypes[0])) {
-                    dog = new Dog();
-                    dog.setName(petName);
-                    listOfPets.add(dog);
-                } else if (petType.equals(petTypes[1])) {
-                    cat = new Cat();
-                    cat.setName(petName);
-                    listOfPets.add(cat);
-                } else {
-                    fish = new Fish();
-                    fish.setName(petName);
-                    listOfPets.add(fish);
-                }
-            }
-        }*/
-
+        
         public void makeSpeak() {
             for (Pet element : listOfPets) {
                 element.speak();
